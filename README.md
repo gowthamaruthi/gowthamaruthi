@@ -2,7 +2,7 @@
 
 🎓 MS Electrical & Computer Engineering @ Virginia Commonwealth University  
 🔭 Aspiring VLSI Physical Design & RTL Design Engineer  
-📍 Richmond, VA &nbsp;|&nbsp; Open to Summer 2025 Internships  
+📍 Richmond, VA &nbsp;|&nbsp; Open to VLSI / RTL Design Roles  
 
 ---
 
@@ -20,19 +20,13 @@
 
 ## 🚀 VLSI Projects
 
-| Project | Description | Tools | Status |
-|---------|-------------|-------|--------|
-| 4-bit ALU | Arithmetic Logic Unit with full testbench | Verilog, EDA Playground | 🔄 Coming Soon |
-| Traffic Light FSM | Finite State Machine controller | SystemVerilog | 🔄 Coming Soon |
-| RTL-to-GDSII Flow | Full physical design flow on ALU | OpenLane | 🔄 Coming Soon |
+Currently building my first projects — 4-bit ALU (Verilog), Traffic Light FSM (SystemVerilog), and an RTL-to-GDSII flow on OpenLane. Repos will be linked here as they're completed.
 
 ---
 
-## 📜 Certifications
+## 📜 Currently Learning
 
-| Certification | Platform | Status |
-|--------------|----------|--------|
-| Hardware Modeling using Verilog | NPTEL — IIT | 🔄 In Progress |
+Hardware Modeling using Verilog — NPTEL (IIT)
 
 ---
 
