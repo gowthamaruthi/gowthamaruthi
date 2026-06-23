@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Gowtham+Kumar+Maruthi+%F0%9F%91%8B;VLSI+%7C+RTL+Design+%7C+Formal+Verification;Building+chips%2C+one+flip-flop+at+a+time+%E2%9A%A1)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Gowtham+Kumar+Maruthi+%F0%9F%91%8B;VLSI+%7C+RTL+Design+%7C+Formal+Verification;Building+chips%2C+one+flip-flop+at+a+time+%E2%9A%A1)](https://git.io/typing-svg)
 
 <img src="./tumblr_7cefb4901cb52e43722e8e71e1dfc336_75ecd9c0_2048.gif" width="600" alt="banner gif"/>
 
