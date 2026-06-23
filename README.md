@@ -1,7 +1,7 @@
 # Hi, I'm Gowtham Kumar Maruthi 👋
 
 🎓 MS Electrical & Computer Engineering @ Virginia Commonwealth University  
-🔭 Aspiring VLSI Physical Design & RTL Design Engineer  
+🔭 VLSI Physical Design & RTL Design Engineer  
 📍 Richmond, VA &nbsp;|&nbsp; Open to VLSI / RTL Design Roles  
 
 ---
@@ -12,15 +12,18 @@
 |----------|--------|
 | **HDL** | Verilog, SystemVerilog |
 | **EDA Tools** | Cadence Innovus, Synopsys Design Compiler, Xilinx Vivado |
+| **Verification** | SVA Assertions, SymbiYosys Formal Verification |
 | **Scripting** | Python, TCL |
-| **Concepts** | RTL Design, Logic Synthesis, Place & Route, Static Timing Analysis |
+| **Concepts** | RTL Design, CDC, Logic Synthesis, Place & Route, Static Timing Analysis |
 | **Embedded** | Arduino, ESP32, IoT |
 
 ---
 
-## 🚀 VLSI Projects
+## 🚀 Projects
 
-Currently building my first projects — 4-bit ALU (Verilog), Traffic Light FSM (SystemVerilog), and an RTL-to-GDSII flow on OpenLane. Repos will be linked here as they're completed.
+### [Async FIFO — Formal Verification](https://github.com/gowthamaruthi/async-fifo-formal-sv)
+Parameterized dual-clock asynchronous FIFO in SystemVerilog with Gray-coded CDC, SVA assertions, and SymbiYosys formal verification.  
+`SystemVerilog` `SVA` `SymbiYosys` `CDC` `FPGA/ASIC`
 
 ---
 
