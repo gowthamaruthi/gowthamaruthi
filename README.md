@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Gowtham+Kumar+Maruthi+%F0%9F%91%8B;VLSI+%7C+RTL+Design+%7C+Formal+Verification;Building+chips%2C+one+flip-flop+at+a+time+%E2%9A%A1" alt="Typing SVG"/>
 </picture>
 
-<img src="tumblr_7cefb4901cb52e43722e8e71e1dfc336_75ecd9c0_2048.gif" width="400" alt="banner gif"/>
+<img src="https://github.com/user-attachments/assets/b936c96d-5fc3-40e2-ba7a-1b20cfeffcfa" width="400" alt="banner gif"/>
 
 </div>
 
