@@ -8,16 +8,16 @@ Building a portfolio for entry-level RTL design and ASIC verification roles, wit
 
 ### [Dual-clock asynchronous FIFO](https://github.com/gowthamaruthi/async-fifo-formal-sv)
 
-Parameterized SystemVerilog FIFO with Gray-coded pointers and two-stage synchronization. The current default branch has a passing [compile/simulation baseline](https://github.com/gowthamaruthi/async-fifo-formal-sv/actions/runs/28349549532).
+Parameterized SystemVerilog FIFO with Gray-coded pointers and two-stage synchronization. The verification repair is merged into `main`; its [pre-merge simulation and formal CI run passed](https://github.com/gowthamaruthi/async-fifo-formal-sv/actions/runs/34063674615).
 
-**Pending review:** [FIFO verification repair — PR #2](https://github.com/gowthamaruthi/async-fifo-formal-sv/pull/2) defines the reset/acceptance contract, fixes reset-time memory writes, adds concurrent simulation and negative tests, and separates local induction proofs from bounded data-safety checks. These changes are not yet merged.
+[Merged FIFO verification repair — PR #2](https://github.com/gowthamaruthi/async-fifo-formal-sv/pull/2) defines the reset/acceptance contract, fixes reset-time memory writes, adds concurrent simulation and negative tests, and separates local induction proofs from bounded data-safety checks.
 
-| Demonstrated in the review branch | Supporting evidence |
+| Demonstrated in the repository | Supporting evidence |
 |---|---|
-| RTL and CDC reasoning | [Interface contract and implementation guidance](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/engineering/fifo-verification-contract/README.md) |
-| Self-checking SystemVerilog verification | [Concurrent stimulus and transaction scoreboard](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/engineering/fifo-verification-contract/tb/tb_async_fifo.sv) |
-| Formal verification with Yosys/SBY/Z3 | [Harness and task configuration](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/engineering/fifo-verification-contract/formal) — local induction, 22-step bounded data checks and reachable covers |
-| Reproducible checks and failure detection | [Recorded results and source fingerprints](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/engineering/fifo-verification-contract/docs/results) |
+| RTL and CDC reasoning | [Interface contract and implementation guidance](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/main/README.md) |
+| Self-checking SystemVerilog verification | [Concurrent stimulus and transaction scoreboard](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/main/tb/tb_async_fifo.sv) |
+| Formal verification with Yosys/SBY/Z3 | [Harness and task configuration](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/main/formal) — local induction, 22-step bounded data checks and reachable covers |
+| Reproducible checks and failure detection | [Recorded results and source fingerprints](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/main/docs/results) |
 
 The evidence is from digital simulation, formal checks and generic synthesis. Target-device timing closure and hardware measurements are future milestones.
 
