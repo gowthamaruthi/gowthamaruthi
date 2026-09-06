@@ -10,9 +10,9 @@
 
 </div>
 
-🎓 MS Electrical & Computer Engineering @ Virginia Commonwealth University · 2026 graduate  
-🔭 RTL Design · ASIC Verification · Formal Verification  
-🎯 Building toward entry-level RTL / DV roles, FPGA implementation and STA  
+🎓 I graduated in 2026 with an MS in Electrical & Computer Engineering from Virginia Commonwealth University  
+🔭 My focus is RTL Design · ASIC Verification · Formal Verification  
+🎯 I'm building toward entry-level RTL / DV roles, FPGA implementation and STA  
 
 ---
 
@@ -32,22 +32,22 @@
 ## 🚀 Projects
 
 ### [Async FIFO — RTL & Formal Verification](https://github.com/gowthamaruthi/async-fifo-formal-sv)
-Parameterized dual-clock FIFO with Gray-coded pointers, a defined reset/acceptance contract, and concurrent self-checking simulation. Local pointer properties pass induction; data safety is checked to **22 global steps**, with reachable full/drain/wrap covers.  
+My FIFO project brings together Gray-coded CDC, reset handling and concurrent self-checking simulation. I use formal checks to verify pointer behavior with induction and data safety to **22 global steps**, with reachable full/drain/wrap covers.  
 `SystemVerilog` `SymbiYosys` `CDC` `RTL/DV`
 
 [Specification & architecture](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/main/README.md) · [Verification results](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/main/docs/results) · [Passing simulation & formal CI](https://github.com/gowthamaruthi/async-fifo-formal-sv/actions/runs/34063674615)
 
 ### AXI4-Stream CDC Subsystem — Local Milestone
-32-bit stream bridge with `TKEEP` / `TLAST`, asynchronous buffering and AXI4-Lite control/status. The first local milestone passes self-checking simulation, lint and generic synthesis; publication is pending review.  
+My next project is a 32-bit stream bridge with `TKEEP` / `TLAST`, asynchronous buffering and AXI4-Lite control/status. My first milestone passes local simulation, lint and generic synthesis. I'm keeping it local while I review it before publishing.  
 `AXI4-Stream` `AXI4-Lite` `SystemVerilog`
 
-Physical timing closure and FPGA hardware measurements remain future milestones.
+I haven't completed physical timing closure or FPGA hardware measurements yet—those are next steps.
 
 ---
 
 ## 📜 Currently Learning
 
-RISC-V processor integration and reference-model verification, followed by constrained implementation and static timing analysis.
+I'm working toward RISC-V processor integration and reference-model verification, then constrained implementation and static timing analysis.
 
 ---
 
