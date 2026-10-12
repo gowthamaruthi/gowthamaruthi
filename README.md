@@ -12,7 +12,7 @@
 
 🎓 I graduated in 2026 with an MS in Electrical & Computer Engineering from Virginia Commonwealth University  
 🔭 My focus is RTL Design · ASIC Verification · Formal Verification  
-🎯 I'm building toward entry-level RTL / DV roles, FPGA implementation and STA  
+🎯 I'm seeking entry-level RTL / DV roles and learning FPGA implementation and STA  
 
 ---
 
@@ -32,13 +32,13 @@
 ## 🚀 Projects
 
 ### [Async FIFO — RTL & Formal Verification](https://github.com/gowthamaruthi/async-fifo-formal-sv)
-My FIFO project brings together Gray-coded CDC, reset handling and concurrent self-checking simulation. I use formal checks to verify pointer behavior with induction and data safety to **22 global steps**, with reachable full/drain/wrap covers.  
+I verify this dual-clock FIFO with concurrent simulation, pointer-transition proofs and bounded data-safety checks to **22 global steps**. Formal covers reach full, drain and pointer wraparound.  
 `SystemVerilog` `SymbiYosys` `CDC` `RTL/DV`
 
 [Specification & architecture](https://github.com/gowthamaruthi/async-fifo-formal-sv/blob/main/README.md) · [Verification results](https://github.com/gowthamaruthi/async-fifo-formal-sv/tree/main/docs/results) · [Passing simulation & formal CI](https://github.com/gowthamaruthi/async-fifo-formal-sv/actions/runs/34063674615)
 
 ### AXI4-Stream CDC Subsystem — Local Milestone
-My next project is a 32-bit stream bridge with `TKEEP` / `TLAST`, asynchronous buffering and AXI4-Lite control/status. My first milestone passes local simulation, lint and generic synthesis. I'm keeping it local while I review it before publishing.  
+My 32-bit stream bridge supports `TKEEP` / `TLAST`, asynchronous buffering and AXI4-Lite control/status. It passes local simulation, lint and generic synthesis and is awaiting review before publication.  
 `AXI4-Stream` `AXI4-Lite` `SystemVerilog`
 
 I haven't completed physical timing closure or FPGA hardware measurements yet—those are next steps.
